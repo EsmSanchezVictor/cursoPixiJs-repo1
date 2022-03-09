@@ -14,6 +14,8 @@ const app = new Application({
 Loader.shared.add({ url: "./pngegg.png", name: "loki" });
 Loader.shared.add({ url: "./clampy.png", name: "clampy" });
 
+//con Sprite.from("./pngegg") , crea el sprite desvargandolo en el momento    
+
 Loader.shared.onComplete.add(()=>{
 	const imagePng: Sprite = Sprite.from("loki");
 
